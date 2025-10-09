@@ -35,7 +35,7 @@ header {
     /* Sección de servicios usando Grid */
 .services-container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); /* tantas columnas como quepan */
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); 
     gap: 20px;
     padding: 20px 0;
     justify-items: center; 
@@ -54,7 +54,7 @@ header {
     transition: transform 0.3s, background-color 0.3s;
     text-align: center;
     height: 150px;
-    width: 100%; /* para que ocupe todo el ancho de la celda */
+    width: 100%; /*  celda */
 }
 
 .service-box:hover {
